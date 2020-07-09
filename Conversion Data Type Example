@@ -1,0 +1,8 @@
+print(' please enter your age')
+age=input() # user is asked to input age -  this is store in String format
+print('please enter your name')
+name=input()
+print('hi ' + name + ' your age will be '+ str(int(age)+10)+ ' after 10 years from now')
+# in above statement we type converted age to integer and mathematical operationis done and type converted back to string in order to string concatenate
+print('hi i found one more interesting thing. your name is of length ' + str(len(name)))
+# in above we have found lenght of name which is an integer and type converted to string in order to string concatenate.a
